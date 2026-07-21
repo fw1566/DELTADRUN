@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -24,6 +25,10 @@
   "resources":[
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"id":{"name":"spr_susiewd","path":"sprites/spr_susiewd/spr_susiewd.yy",},},
+    {"id":{"name":"spr_susiewl","path":"sprites/spr_susiewl/spr_susiewl.yy",},},
+    {"id":{"name":"spr_susiewr","path":"sprites/spr_susiewr/spr_susiewr.yy",},},
+    {"id":{"name":"spr_susiewu","path":"sprites/spr_susiewu/spr_susiewu.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
