@@ -46,3 +46,7 @@ if(xspd != 0 or yspd != 0){
     image_speed = 0
 	image_index = 0
 }
+
+//dont shake
+x[0] = round(x[0.1])
+y[0] = round(y[0.1])
