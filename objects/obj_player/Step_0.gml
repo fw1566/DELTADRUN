@@ -1,3 +1,9 @@
+//freeze during fade
+if(instance_exists(obj_fade)){
+	image_speed = 0
+	exit
+}
+
 //controls
 var up_key = keyboard_check(vk_up)
 var down_key = keyboard_check(vk_down)

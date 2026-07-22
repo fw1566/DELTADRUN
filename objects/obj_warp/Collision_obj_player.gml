@@ -5,4 +5,5 @@ if(!instance_exists(obj_fade) and target_room != noone){
 	f.target_room = target_room
 	f.target_x = target_x
 	f.target_y = target_y
+	f.target_sprite = obj_player.sprite_index
 }
