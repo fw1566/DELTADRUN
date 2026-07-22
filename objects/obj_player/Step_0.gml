@@ -10,9 +10,9 @@ var down_key = keyboard_check(vk_down)
 var left_key = keyboard_check(vk_left)
 var right_key = keyboard_check(vk_right)
 
-//move
-if(keyboard_check(vk_shift) or (ord("X"))){
-	move_spd = run_spd
+//move, hold X/Shift to run up to full speed
+if(keyboard_check(vk_shift) or keyboard_check(ord("X"))){
+	move_spd = min(move_spd + run_acc, run_spd)
 } else{
 	move_spd = walk_spd
 }
@@ -20,15 +20,17 @@ if(keyboard_check(vk_shift) or (ord("X"))){
 xspd = (right_key - left_key) * move_spd
 yspd = (down_key - up_key) * move_spd
 
-//collision
+//collision, bumping resets run speed
 
 if(place_meeting(x + xspd, y, obj_collider)){
 	
 	xspd = 0
+	move_spd = walk_spd
 }
 if(place_meeting(x, y + yspd, obj_collider)){
 	
 	yspd = 0
+	move_spd = walk_spd
 }
 
 
