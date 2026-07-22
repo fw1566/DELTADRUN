@@ -3,5 +3,8 @@ if(instance_exists(obj_fade)){
 	exit
 }
 
-sprite_index = spr_susiewd
-image_index = 1
+//face direction when standing
+if(xspd == 0 and yspd == 0){
+	sprite_index = spr_susiewd
+	image_index = 1
+}

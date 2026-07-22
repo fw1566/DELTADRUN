@@ -35,15 +35,19 @@ if(place_meeting(x, y + yspd, obj_collider)){
 x += xspd
 y += yspd
 
-//animate
-if(xspd > 0){
-	sprite_index = spr_susiewr
-} else if (xspd < 0){
-	sprite_index = spr_susiewl
-} else if (yspd > 0){
-	sprite_index = spr_susiewd
-} else if (yspd < 0){
-	sprite_index = spr_susiewu
+//animate, keep direction on diagonal
+if(xspd != 0 and yspd == 0){
+	if(xspd > 0){
+		sprite_index = spr_susiewr
+	} else{
+		sprite_index = spr_susiewl
+	}
+} else if(xspd == 0 and yspd != 0){
+	if(yspd > 0){
+		sprite_index = spr_susiewd
+	} else{
+		sprite_index = spr_susiewu
+	}
 }
 
 if(xspd != 0 or yspd != 0){
