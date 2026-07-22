@@ -31,7 +31,9 @@
   "name":"DELTADRUN",
   "resources":[
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
+    {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},
     {"id":{"name":"rm_kris","path":"rooms/rm_kris/rm_kris.yy",},},
     {"id":{"name":"rm_test_long","path":"rooms/rm_test_long/rm_test_long.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
@@ -44,6 +46,7 @@
     {"id":{"name":"spr_susiewl","path":"sprites/spr_susiewl/spr_susiewl.yy",},},
     {"id":{"name":"spr_susiewr","path":"sprites/spr_susiewr/spr_susiewr.yy",},},
     {"id":{"name":"spr_susiewu","path":"sprites/spr_susiewu/spr_susiewu.yy",},},
+    {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},},
     {"id":{"name":"tl_hometown","path":"tilesets/tl_hometown/tl_hometown.yy",},},
   ],
   "resourceType":"GMProject",

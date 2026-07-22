@@ -11,6 +11,7 @@
     {"name":"inst_61B629C9","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_3C8BA90C","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_3EDA518E","path":"rooms/rm_test/rm_test.yy",},
+    
   ],
   "isDnd":false,
   "layers":[
