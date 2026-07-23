@@ -35,6 +35,7 @@
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_kris","path":"objects/obj_kris/obj_kris.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_prop","path":"objects/obj_prop/obj_prop.yy",},},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},
     {"id":{"name":"rm_kris","path":"rooms/rm_kris/rm_kris.yy",},},
     {"id":{"name":"rm_test_long","path":"rooms/rm_test_long/rm_test_long.yy",},},

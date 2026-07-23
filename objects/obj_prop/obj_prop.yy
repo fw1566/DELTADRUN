@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_kris",
+  "%Name":"obj_prop",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_kris",
+  "name":"obj_prop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_kriswd",
-    "path":"sprites/spr_kriswd/spr_kriswd.yy",
+    "name":"spr_pc",
+    "path":"sprites/spr_pc/spr_pc.yy",
   },
   "spriteMaskId":null,
   "visible":true,

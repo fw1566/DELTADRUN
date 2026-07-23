@@ -6,5 +6,4 @@ if(instance_exists(obj_fade)){
 //face direction when standing
 if(xspd == 0 and yspd == 0){
 	sprite_index = spr_susiewr
-	image_index = 1
 }
