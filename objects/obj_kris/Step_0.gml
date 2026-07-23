@@ -9,9 +9,6 @@ if(!instance_exists(obj_player)){
 }
 
 //follow susies path
-var prev_x = x
-var prev_y = y
-
 x = obj_player.follow_x[target]
 y = obj_player.follow_y[target]
 
@@ -27,19 +24,13 @@ if(face == 1){
 	sprite_index = spr_d
 }
 
-//copy susies walk frame from the same path point
+//only animate while susie is actually walking
+//when she stands (or finishes a foot hold), kris is idle frame 0
 image_speed = 0
-if(x != prev_x or y != prev_y){
+if(obj_player.xspd != 0 or obj_player.yspd != 0){
 	image_index = obj_player.follow_img[target]
 } else{
-	//standing: match whatever susie last left on the path
-	var img = obj_player.follow_img[target]
-	var foot = floor(img)
-	if(foot == 1 or foot == 3){
-		image_index = img
-	} else{
-		image_index = 0
-	}
+	image_index = 0
 }
 
 //dont shake
