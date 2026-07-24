@@ -24,14 +24,10 @@ if(face == 1){
 	sprite_index = spr_d
 }
 
-//only animate while susie is actually walking
-//when she stands (or finishes a foot hold), kris is idle frame 0
+//mirror susies walk animation: same foot at same time
+//idle -> left foot -> idle -> right foot, just like susie
 image_speed = 0
-if(obj_player.xspd != 0 or obj_player.yspd != 0){
-	image_index = obj_player.follow_img[target]
-} else{
-	image_index = 0
-}
+image_index = obj_player.image_index
 
 //dont shake
 x = round(x)
