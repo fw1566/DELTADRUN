@@ -25,9 +25,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"main.ttf","CopyToMask":-1,"filePath":"datafiles","name":"main.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -35,7 +33,9 @@
   },
   "name":"DELTADRUN",
   "resources":[
-    {"id":{"name":"main","path":"fonts/main/main.yy",},},
+    {"id":{"name":"fnt_dotumche","path":"fonts/fnt_dotumche/fnt_dotumche.yy",},},
+    {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},},
+    {"id":{"name":"fnt_sans","path":"fonts/fnt_sans/fnt_sans.yy",},},
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_kris","path":"objects/obj_kris/obj_kris.yy",},},
