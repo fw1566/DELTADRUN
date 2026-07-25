@@ -1,5 +1,10 @@
 //define variables
-target = 12
+
+//how many recorded steps back kris walks behind susie. since each recorded step is one
+//point along her actual path, kris naturally falls further behind in real distance while
+//she's running (each step covers more ground) and catches back up while walking slowly --
+//exactly like partners in the actual game
+target = 8
 
 spr_d = spr_kriswd
 spr_r = spr_kriswr

@@ -32,5 +32,5 @@ for(var i = 0; i < follow_points; i++){
 
 //spawn kris if he isnt already here
 if(!instance_exists(obj_kris)){
-	instance_create_depth(follow_x[12], follow_y[12], depth + 1, obj_kris)
+	instance_create_depth(follow_x[8], follow_y[8], depth + 1, obj_kris)
 }
