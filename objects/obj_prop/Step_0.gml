@@ -1,7 +1,8 @@
 //check for susie interacting with this prop (pc, cage, etc), same feel as deltarune's "check"
 
-//only one textbox and one fade at a time, and don't check while mid-transition
-if(!instance_exists(obj_player) or instance_exists(obj_textbox) or instance_exists(obj_fade)){
+//only one textbox and one fade at a time, and don't check while mid-transition --
+//without this the same Z press that closes a box would immediately reopen it
+if(!instance_exists(obj_player) or scr_world_frozen()){
 	exit
 }
 

@@ -1,6 +1,9 @@
-//freeze during fade
-if(instance_exists(obj_fade)){
+//freeze during a fade or while a dialogue is open. susie stops recording new path
+//points anyway, but bailing out here also drops kris onto a clean standing frame
+//instead of leaving him mid-step
+if(scr_world_frozen()){
 	image_speed = 0
+	image_index = 0
 	exit
 }
 

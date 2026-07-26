@@ -1,5 +1,7 @@
 //start fade and teleport
-if(!instance_exists(obj_fade) and target_room != noone){
+//scr_world_frozen also covers an open dialogue, so susie can't get warped out
+//of the room in the middle of someone's line
+if(!scr_world_frozen() and target_room != noone){
 	var f = instance_create_depth(0, 0, 0, obj_fade)
 	f.fade_out = true
 	f.target_room = target_room

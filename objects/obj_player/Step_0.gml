@@ -1,6 +1,14 @@
-//freeze during fade
-if(instance_exists(obj_fade)){
+//freeze during a fade or while a dialogue is open -- susie stops on the spot and
+//keeps facing the way she was, she doesn't even finish the step she was taking
+if(scr_world_frozen()){
+	xspd = 0
+	yspd = 0
+	move_spd = walk_spd
 	image_speed = 0
+	image_index = 0
+	walk_cycle = 0
+	step_i = -1
+	was_moving = false
 	exit
 }
 
